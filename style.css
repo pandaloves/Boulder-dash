@@ -372,6 +372,13 @@ body {
   float: left;
   background-repeat: no-repeat;
 }
+
+.b12,
+.b13,
+.b14 {
+  background-color: rgb(1, 37, 37);
+}
+
 .t12 {
   background-image: url(img/tiles/floor/green_bones_1.png);
 }
