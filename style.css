@@ -409,6 +409,7 @@ tfoot {
 }
 .b18 {
   background-image: url(img/tiles/passage/open_door.png);
+  background-color: white;
 }
 .b19 {
   background-image: url(img/tiles/blocker/brick_brown-vines_1.png);
