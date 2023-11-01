@@ -171,7 +171,10 @@ body {
   color: #222;
   font: 100.01%/1.375 Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  max-width: 940px;
+  margin: 8px auto;
 }
+
 p {
   margin-bottom: 22px;
 }
@@ -245,43 +248,14 @@ tfoot {
  * CSS3 mixins.
  * 
  */
-/** --------------------------------------------------------------
- * Colors.
- * 
- */
-.black {
-  color: #000;
-}
-.blue {
-  color: #049cdb;
-}
-.green {
-  color: #46a546;
-}
-.red {
-  color: #9d261d;
-}
-.yellow {
-  color: #ffc40d;
-}
-.orange {
-  color: #f89406;
-}
-/** --------------------------------------------------------------
- * Page layout.
- * 
- */
-body {
-  max-width: 940px;
-  margin: 8px auto;
-}
+
 /** --------------------------------------------------------------
  * Boxes.
  * 
  */
 #flash {
   margin: 2em auto;
-  background-color: rgba(238, 238, 238, 0.95);
+  background-image: url(img/tiles/floor/green_bones_3.png);
   min-height: 10em;
   border: 1px solid #999;
   padding: 1em;
@@ -293,9 +267,6 @@ body {
   box-shadow: 5px 5px 5px 5px #555;
 }
 
-#bg-music {
-  margin: 10px auto 0 100px;
-}
 /** --------------------------------------------------------------
  * Footer.
  * 
@@ -322,6 +293,7 @@ body {
   width: 768px;
   height: 768px;
 }
+
 #baddie1 {
   position: absolute;
 }
@@ -347,15 +319,19 @@ body {
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
+
 .baddie.up {
   background-position: -96px 0;
 }
+
 .baddie.down {
   background-position: -64px 0;
 }
+
 .baddie.left {
   background-position: -32px 0;
 }
+
 .baddie.right {
   background-position: 0 0;
 }
@@ -373,11 +349,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.b12,
+/* .b12,
 .b13,
 .b14 {
   background-color: rgb(1, 37, 37);
-}
+} */
 
 .t12 {
   background-image: url(img/tiles/floor/green_bones_1.png);
@@ -427,11 +403,9 @@ body {
 }
 .b14 {
   background-image: url(img/tiles/blocker/gold_pile_7.png);
-  background-color: green;
 }
 .b17 {
   background-image: url(img/tiles/passage/closed_door.png);
-  background-color: #bbb;
 }
 .b18 {
   background-image: url(img/tiles/passage/open_door.png);
